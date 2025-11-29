@@ -188,7 +188,7 @@ class Memory(Base):
     
     # Content
     content = Column(Text, nullable=False)
-    metadata = Column(JSON)
+    meta_data = Column(JSON)
     
     # Context
     project_id = Column(Integer, nullable=True)
